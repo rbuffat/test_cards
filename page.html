@@ -1,0 +1,84 @@
+<html>
+<head>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@site">
+    <meta name="twitter:creator" content="@creator">
+    <meta name="twitter:title" content="A title">
+    <meta name="twitter:description" content="A description">
+    <meta name="twitter:image" content="https://rbuffat.github.io/test_cards/heatmap.png">
+    <style>
+.parent {
+  margin-top: 128px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.left {
+  background-color: #00b2b2;
+  width: 600px;
+  height: 400px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  padding: 2%;
+}
+
+.left img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.right {
+  background-color: #00b2b2;
+  width: 600px;
+  height: 400px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+  padding: 5%;
+  position: relative;
+}
+
+.right h1 {
+  font-weight: bolder;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+.right .logo {
+  position: absolute;
+  width: 300px;
+  right: 2%;
+  bottom: 2%;
+}
+    </style>
+</head>
+<body>
+<div class="parent">
+    <div class="left">
+      <img src="http://localhost:8000/api/v1/insights-image/df1fc243-945e-5258-b9ba-77aaef063652.png">
+    </div>
+
+    <div class="right">
+      <h1>You are at home in these waters.</h1>
+      <img src="/static/img/Clickahoy_Logo_weiss.png" class="logo" alt="logo" />
+    </div>
+</div>
+</body>
+</html>
